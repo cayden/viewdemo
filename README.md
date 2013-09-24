@@ -6,3 +6,4 @@ Android之侧滑菜单，即左右滑动 左侧和右侧菜单
 
 这里也试着写一下侧滑
 
+<img src="http://img.my.csdn.net/uploads/201309/24/1380012264_3906.gif"/>
