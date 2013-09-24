@@ -13,7 +13,12 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
-
+/**
+ * 
+ * TODO
+ * @author cuiran
+ * @version 1.0.0
+ */
 public class MainActivity extends Activity implements OnClickListener{
 	private static final String TAG="MainActivity";
 
