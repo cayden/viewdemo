@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="userinfo_size">18sp</dimen>
+    <dimen name="mail_subject_size">17sp</dimen>
+    <dimen name="button_height">45.0dip</dimen>
+    <dimen name="bottom_tab_font_size">12.0dip</dimen>
+    <dimen name="bottom_tab_padding_up">5.0dip</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+   
+    <dimen name="list_first_char_hint_text_size">15sp</dimen>
+	<dimen name="list_item_order_number_size">30sp</dimen>
+	<dimen name="list_item_first_view_right_margin">30sp</dimen>
+	<dimen name="list_item_first_char_padding">10dip</dimen>
+	<dimen name="list_item_name_size">25sp</dimen>
+	<dimen name="list_item_divider_margin">5dip</dimen>
+	<dimen name="list_item_icon_length">50sp</dimen>
+	<dimen name="popup_char_min_length">70dip</dimen>
+	
+	<dimen name="pulldown_headerview_height">70dp</dimen>
+    <dimen name="pulldown_move_deviation">38dp</dimen>
+    <dimen name="pulldown_auto_incremental">6dp</dimen>
+</resources>

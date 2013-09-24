@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+	
+    <LinearLayout 
+	    android:id="@+id/layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal">
+    	
+         <LinearLayout
+	        android:id="@+id/leftMenu"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+        	 <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/left_text" />
+   		 </LinearLayout>
+     
+           
+         <LinearLayout
+	        android:id="@+id/content"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+         >
+        
+          <RelativeLayout 
+            android:layout_width="fill_parent"
+			android:id="@+id/layout01" 
+			android:layout_height="wrap_content"
+			android:background="@drawable/bg_title"
+			android:layout_alignParentTop="true" 
+			android:gravity="center"
+			android:orientation="horizontal">
+			<ImageView 
+		    android:id="@+id/leftBtn"
+		    android:layout_alignParentLeft="true"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:padding="10dp"
+		    android:src="@drawable/home_category"/>
+		 	<ImageView 
+		    android:id="@+id/leftIcon"
+		    android:layout_toRightOf="@+id/leftBtn"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:src="@drawable/title_icon_line"/>
+	    	 <TextView 
+	            android:id="@+id/home_resource"
+				android:text="@string/app_name"
+				android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:textColor="@color/white"
+			    android:textSize="@dimen/title_size"
+			    android:textStyle="bold"
+			  android:padding="10dp"
+			    android:gravity="center"/>
+	      	<ImageView 
+		    android:id="@+id/rightIcon"
+		    android:layout_toLeftOf="@+id/rightBtn"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:src="@drawable/title_icon_line"/>
+	 		 <ImageView 
+	 	   	android:id="@+id/rightBtn"
+		     android:padding="10dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:src="@drawable/home_myvancl"
+		    />
+			</RelativeLayout>
+  		  </LinearLayout>
+           
+     	  <LinearLayout
+	        android:id="@+id/rightMenu"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+         	>
+	         <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/right_text" />
+                  
+   		 </LinearLayout> 	
+           
+    </LinearLayout>
+           
+	
+
+</RelativeLayout>
